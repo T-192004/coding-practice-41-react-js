@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.body-container {
+  width: 60%;
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+.navbar {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: 100%;
+  background-color: #e2e8f0;
+}
+.content {
+  min-width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  flex-grow: 2;
+  height: 100%;
+  margin: 0px 5px 0px 5px;
+  background-color: #e2e8f0;
+}
+.content-title {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #475569;
+}
+.item-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  height: 80%;
+  justify-content: space-around;
+}
+.box {
+  padding: 20px;
+  border: solid 2px #475569;
+  text-align: center;
+}
+.item{
+  color: #64748b;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+}

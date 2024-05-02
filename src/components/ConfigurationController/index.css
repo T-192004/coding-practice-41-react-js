@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.configuration-container {
+  background-size: cover;
+  height: 30vh;
+  padding: 30px;
+  background-color: #475569;
+}
+.title {
+  color: #ffffff;
+  font-size: 36px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.control-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+  padding: 20px;
+  margin: 5px;
+}
+.control-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5px;
+}
+.check-box {
+  margin-right: 8px;
+}
+.checkbox-label {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
